@@ -1,0 +1,629 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+
+/* ----------------------------------------            header start
+--------------------------------------                                        */
+
+header{
+    background-color: #2D25A0;
+}
+.header{
+    display: flex;
+}
+.header-name{
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 64px;
+    line-height: 80px;
+    color: #FFFFFF;
+    }
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.login-button{
+    font-size: 1.5rem;
+    margin: .5rem;
+    color: #FFFFFF;
+    background-color:#E02C6D;
+}
+.navbar-links ul{
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+.navbar-links li{
+    list-style: none;
+    
+
+}
+.navbar-links li a{
+    text-decoration: none;
+    padding: 1rem;
+    display: block;
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    color: #FFFFFF;
+    
+    
+}
+.navbar-links li:hover{
+    background-color: #555;
+}
+.button {
+    transition: transform .2s;
+     background-color:#E02C6D; 
+    color: white;
+    width: 168px;
+    height: 44px;
+
+
+  }
+  
+.button:hover {
+    background-color:#E02C6D; /* Green */
+    color: white;
+    cursor:pointer;
+    transform: scale(1.2);
+    
+  }
+
+.header{
+    justify-content: center;
+}  
+
+header .header img{
+    width: 556.01px;
+    height: 438px;
+    
+}
+
+/* ----------------------------------------            Header End
+--------------------------------------                                        */
+
+/* ----------------------------------------            Main Start
+--------------------------------------                                        */
+main{
+    display: flex;
+    justify-content: center;
+}
+.players-area{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);   
+}
+
+.players-area .player img{
+    width: 300px;
+height: 256px;
+
+}
+
+.player{
+    padding: 15px;
+    width: 300px;
+    height: 426px;
+    margin: 27px;
+    text-align: center;
+    background: #FFFFFF;
+    box-shadow: 0px 0px 40px rgba(0, 0, 0, 0.15);
+    justify-content: center;
+    align-items: center;
+}
+
+/* ----------------------------------------            Main End
+--------------------------------------                                        */
+
+/* ----------------------------------------            Article Start
+--------------------------------------                                        */
+
+article{
+     margin: 5%;
+     padding: 5%;
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    
+
+}
+#highlight-text{
+    width: 404px;
+    height: 113px;
+    font-family: Poppins;
+    font-size: 16px;
+
+
+}
+article img{
+    width: 567px;
+    height: 427px;
+}
+
+.highlight-title{
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 48px;
+    line-height: 60px;
+}
+
+/* ----------------------------------------            Article End
+--------------------------------------                                        */
+/* ----------------------------------------            Footer Start
+--------------------------------------                                        */
+
+footer{
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+footer img{
+    width: 483.87px;
+    height: 110px;
+
+}
+.copy-right{
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 48px;
+    line-height: 60px;
+}
+
+/* ----------------------------------------            Footer End
+--------------------------------------                                        */
+
+/* ----------------------------------------            Media Query Start
+--------------------------------------                                        */
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+    body{
+    margin:0;
+    padding:0;
+    }
+    header{
+    background-color: #2D25A0;
+    }
+    .header{
+    display: block;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    
+    }
+    .header-name{
+    margin-bottom: 50px ;
+    }
+    header .header img{
+    width: 329px;
+    height: 259.17px;
+    margin-bottom: 61.83px;
+    }
+    .button{
+    margin-bottom: 50px;
+    }
+    
+    main{
+        display: flex;
+        justify-content: center;
+    }
+    .players-area{
+        display: grid;
+        grid-template-columns: repeat(1,1fr);   
+    }
+    
+    .players-area .player img{
+        width: 300px;
+    height: 256px;
+    
+    }
+    
+    .player{
+        padding: 15px;
+        width: 300px;
+        height: 426px;
+        margin: 27px;
+        text-align: center;
+        background: #FFFFFF;
+        box-shadow: 0px 0px 40px rgba(0, 0, 0, 0.15);
+        justify-content: center;
+        align-items: center;
+    }
+
+article{
+    margin: 5%;
+     padding: 5%;
+   display: grid;
+   grid-template-columns: repeat(1,1fr);
+   justify-content: center;
+   align-items: center;
+   text-align: center;
+   
+
+}
+#highlight-text{
+    width: 404px;
+    height: 113px;
+    font-family: Poppins;
+    font-size: 16px;
+}
+article img{
+   width: 430px;
+   height: 400px;
+}
+
+.highlight-title{
+   font-family: Poppins;
+   font-style: normal;
+   font-weight: bold;
+   font-size: 48px;
+   line-height: 60px;
+}
+
+    }
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+    body{
+        margin:0;
+        padding:0;
+    }
+    header{
+        background-color: #2D25A0;
+    }
+    .header{
+        display: block;
+        text-align: center;
+        justify-content: center;
+        align-items: center;
+        
+    }
+    
+    header .header img{
+    width: 556.01px;
+    height: 438px;
+        
+    }
+
+    main{
+        display: flex;
+        justify-content: center;
+    }
+    .players-area{
+        display: grid;
+        grid-template-columns: repeat(1,1fr);   
+    }
+    
+    .players-area .player img{
+        width: 400px;
+    height: 300px;
+    
+    }
+    
+    .player{
+        padding: 15px;
+        width: 430px;
+        height: 440px;
+        margin: 27px;
+        text-align: center;
+        background: #FFFFFF;
+        box-shadow: 0px 0px 40px rgba(0, 0, 0, 0.15);
+        justify-content: center;
+        align-items: center;
+    }
+
+    article{
+        margin: 5%;
+     padding: 5%;
+       display: grid;
+       grid-template-columns: repeat(1,1fr);
+       justify-content: center;
+       align-items: center;
+       text-align: center;
+       
+    
+    }
+    #highlight-text{
+        
+        width: 404px;
+        height: 113px;
+        font-family: Poppins;
+        font-size: 16px;
+    
+    
+    }
+    article img{
+       width: 430px;
+       height: 400px;
+    }
+    
+    .highlight-title{
+       font-family: Poppins;
+       font-style: normal;
+       font-weight: bold;
+       font-size: 48px;
+       line-height: 60px;
+    }
+
+
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+    body{
+        margin:0;
+        padding:0;
+    }
+    header{
+        background-color: #2D25A0;
+    }
+    .header{
+        display: flex;
+        text-align: center;
+        justify-content: center;
+        align-items: center;
+        margin: 50px;
+    }
+    .header-name{
+        margin-bottom: 50px ;
+    }
+    header .header img{
+        width: 556.01px;
+        height: 438px;
+        margin-bottom: 61.83px;
+    }
+    .button{
+        margin-bottom: 50px;
+    }
+
+    main{
+        display: flex;
+        justify-content: center;
+    }
+    .players-area{
+        display: grid;
+        grid-template-columns: repeat(2,1fr);   
+    }
+    
+    .players-area .player img{
+        width: 300px;
+    height: 256px;
+    
+    }
+    
+    .player{
+        padding: 15px;
+        width: 300px;
+        height: 426px;
+        margin: 27px;
+        text-align: center;
+        background: #FFFFFF;
+        box-shadow: 0px 0px 40px rgba(0, 0, 0, 0.15);
+        justify-content: center;
+        align-items: center;
+    }
+
+
+    article{
+        margin: 5%;
+     padding: 5%;
+       display: grid;
+       grid-template-columns: repeat(1,1fr);
+       justify-content: center;
+       align-items: center;
+       text-align: center;
+       
+    
+    }
+    #highlight-text{
+       width: 404px;
+       height: 113px;
+       font-family: Poppins;
+       font-size: 16px;
+    
+    
+    }
+    article img{
+       width: 567px;
+       height: 427px;
+    }
+    
+    .highlight-title{
+       font-family: Poppins;
+       font-style: normal;
+       font-weight: bold;
+       font-size: 48px;
+       line-height: 60px;
+    }
+    
+
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+    body{
+        margin:0;
+        padding:0;
+    }
+    header{
+        background-color: #2D25A0;
+    }
+    .header{
+        display: flex;
+        text-align: center;
+        justify-content: center;
+        align-items: center;
+        margin: 50px;
+    }
+    .header-name{
+        margin-bottom: 50px ;
+    }
+    header .header img{
+        width: 556.01px;
+        height: 438px;
+        margin-bottom: 61.83px;
+    }
+    .button{
+        margin-bottom: 50px;
+    }
+
+    main{
+        display: flex;
+        justify-content: center;
+    }
+    .players-area{
+        display: grid;
+        grid-template-columns: repeat(3,1fr);   
+    }
+    
+    .players-area .player img{
+        width: 300px;
+    height: 256px;
+    
+    }
+    
+    .player{
+        padding: 15px;
+        width: 300px;
+        height: 426px;
+        margin: 8px;
+        text-align: center;
+        background: #FFFFFF;
+        box-shadow: 0px 0px 40px rgba(0, 0, 0, 0.15);
+        justify-content: center;
+        align-items: center;
+    }
+
+
+article{
+    margin: 5%;
+     padding: 5%;
+   display: grid;
+   grid-template-columns: repeat(2,1fr);
+   justify-content: center;
+   align-items: center;
+   text-align: center;
+   
+
+}
+#highlight-text{
+   font-family: Poppins;
+   font-size: 16px;
+
+
+}
+article img{
+   width: 567px;
+   height: 427px;
+}
+
+.highlight-title{
+   font-family: Poppins;
+   font-style: normal;
+   font-weight: bold;
+   font-size: 48px;
+   line-height: 60px;
+}
+
+}
+
+
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+    body{
+        margin:0;
+        padding:0;
+    }
+    header{
+        background-color: #2D25A0;
+    }
+    .header{
+        display: flex;
+        text-align: center;
+        justify-content: center;
+        align-items: center;
+        margin: 50px;
+    }
+    .header-name{
+        margin-bottom: 50px ;
+    }
+    header .header img{
+        width: 556.01px;
+        height: 438px;
+        margin-bottom: 61.83px;
+    }
+    .button{
+        margin-bottom: 50px;
+    }
+    /* Main area start */
+
+    main{
+        display: flex;
+        justify-content: center;
+    }
+    .players-area{
+        display: grid;
+        grid-template-columns: repeat(3,1fr);   
+    }
+    
+    .players-area .player img{
+        width: 300px;
+    height: 256px;
+    
+    }
+    
+    .player{
+        padding: 15px;
+        width: 300px;
+        height: 426px;
+        margin: 27px;
+        text-align: center;
+        background: #FFFFFF;
+        box-shadow: 0px 0px 40px rgba(0, 0, 0, 0.15);
+        justify-content: center;
+        align-items: center;
+    }
+    /* article area start  */
+
+article{
+    margin: 5%;
+    padding: 5%;
+   display: grid;
+   grid-template-columns: repeat(2,1fr);
+   justify-content: center;
+   align-items: center;
+   text-align: center;
+   
+
+}
+#highlight-text{
+   width: 404px;
+   height: 113px;
+   font-family: Poppins;
+   font-size: 16px;
+}
+article img{
+   width: 567px;
+   height: 427px;
+}
+
+.highlight-title{
+   font-family: Poppins;
+   font-style: normal;
+   font-weight: bold;
+   font-size: 48px;
+   line-height: 60px;
+}
+
+}
